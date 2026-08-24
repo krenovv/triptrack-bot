@@ -15,11 +15,15 @@ async def main():
     if not token:
         raise RuntimeError("BOT_TOKEN not found")
 
+    db_path = os.getenv("DB_PATH")
+    if not db_path:
+        raise RuntimeError("DB_PATH not found")
+
     proxy = os.getenv("PROXY_URL")
 
     container = build_container()
 
-    init_db("db.sqlite3")
+    init_db(db_path)
 
     await run_bot(token, container, proxy)
 

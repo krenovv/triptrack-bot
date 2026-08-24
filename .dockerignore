@@ -10,21 +10,21 @@ data/
 *.pem
 *.key
 
-# IDE
+# Git
+.git/
+.gitignore
+
+# IDE и кеши
 .idea/
 .vscode/
 __pycache__/
 *.pyc
-
-# Docker
-Dockerfile
-docker-compose.yml
-.dockerignore
+.pytest_cache/
 
 # Логи
 *.log
 
-# Временные файлы
-tmp/
-temp/
-*.tmp
+# Документация
+README.md
+*.md
+docs/
