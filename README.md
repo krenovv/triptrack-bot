@@ -2,7 +2,7 @@
 
 Telegram bot for drivers (couriers, taxi) to track trips, expenses, and calculate real profit.
 
-Demo: https://t.me/Trip_Track_Bot
+Try it: https://t.me/Trip_Track_Bot
 
 ---
 
@@ -61,7 +61,7 @@ git clone https://github.com/krenovv/triptrack-bot
 cd triptrack-bot
 pip install -r requirements.txt
 
-# create .env файл
+# create .env file
 BOT_TOKEN=your_token
 
 python main.py
