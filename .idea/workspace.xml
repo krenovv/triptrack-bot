@@ -75,7 +75,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot\app\utils" />
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot\app\services" />
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot\app\repositories" />
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot\app\models" />
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot\app\db" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\krenov\Dev\triptrack-bot" />
       <recent name="C:\Dev\Projects\CourierBot\app\bot\handlers" />
     </key>
   </component>
