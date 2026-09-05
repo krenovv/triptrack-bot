@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 from app.services.trip_service import TripService
 from app.services.car_settings_service import CarSettingsService
 from app.repositories.sqlite_car_settings_repository import SQLiteCarSettingsRepository
@@ -5,8 +7,10 @@ from app.repositories.sqlite_trip_repository import SQLiteTripRepository
 from types import SimpleNamespace
 
 
+load_dotenv()
+
 def build_container():
-    db_path = "db.sqlite3"
+    db_path = os.getenv("DB_PATH", "db.sqlite3")
     trip_repo = SQLiteTripRepository(db_path)
     car_repo = SQLiteCarSettingsRepository(db_path)
 
